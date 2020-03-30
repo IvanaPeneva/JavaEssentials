@@ -1,0 +1,12 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int number = 5;
+        String text = "hello";
+        int max = Integer.MAX_VALUE;
+        System.out.println(max);
+        System.out.println(number);
+        System.out.println(text);
+
+    }
+}
