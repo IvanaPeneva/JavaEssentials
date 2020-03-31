@@ -1,12 +1,19 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        int number = 5;
-        String text = "hello";
-        int max = Integer.MAX_VALUE;
-        System.out.println(max);
-        System.out.println(number);
-        System.out.println(text);
+        Scanner scanner = new Scanner(System.in);
+        String pass = scanner.nextLine();
+        if (pass.equals("street")) {
+           System.out.println("Welcome");
+       }
+       //do not use this if ("str" == pass){
+         //   System.out.println("Welcome Chef ");
+        //}
+        else {
+            System.out.println("Wrong password");
+        }
 
     }
 }
