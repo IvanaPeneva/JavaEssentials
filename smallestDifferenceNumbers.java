@@ -1,3 +1,4 @@
+//not working right
 public class smallestDifferenceNumbers {
     public static void main(String[] args) {
         int[] numbers = {5, 10, 12, 37, 40, 4};
