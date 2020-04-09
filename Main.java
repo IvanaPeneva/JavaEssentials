@@ -2,21 +2,20 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-
-        int [] numbers =new int[scanner.nextInt()]; //not -1
-        for (int i=0; i<numbers.length; i++){
-           numbers[i]=scanner.nextInt();
-
+    static void printBorder(int length, String symbol){
+        for(int i=0; i<length; i++) {
+            System.out.print(symbol);
+        }
+        System.out.println();
     }
-        for (int i=0; i<numbers.length;i++){
-            numbers[i] *= 2;
 
-        }
-        for(int i=numbers.length-1; i>=0; i--){
-            System.out.println(numbers[i]);
-        }
-
+    public static void main(String[] args) {
+        Scanner scanner= new Scanner(System.in);
+        int borderlength=scanner.nextInt(); //!!!!
+        String borderSymbol =scanner.next();
+        printBorder(borderlength,borderSymbol);
+        ///printBorder(borderlength,"*");
+        System.out.println("Hello World");
+        printBorder(borderlength,borderSymbol);
     }
 }
