@@ -9,7 +9,7 @@ public class local {
     }
 
     public static void main(String[] args) {
-        int []numbers= {13, 42,-68,113,10};
+        int []numbers=new int []{13, 42,-68,113,10 }; //1
         int firstNegative=findFirstNegative(numbers);
         if (firstNegative==0){
             System.out.println("No negative number found");
