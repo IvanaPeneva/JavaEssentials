@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class repeatString {
     static String repeatString(String s,int repeatCount){
-        String[] repeatArr=new String[repeatCount];
+        String[] repeatArr=new String[repeatCount]; //new arr
         for (int i=0; i<repeatArr.length;i++){
             repeatArr[i]=s;
         }return String.join("", repeatArr);
