@@ -17,7 +17,8 @@ public class sort {
         }
         System.out.println();
         List<String> words=new ArrayList<>(Arrays.asList("barbeque", "bira", "agne", "mantiq"));
-        Collections.sort(words);
+        Collections.sort(words,(a, b)->b.compareTo(a)); //reversed
+        Collections.sort(words,(a,b)-> Character.compare(b.charAt(1),a.charAt(1))); //po 2 symbol naobratno
         for (String w:words){
             System.out.println(w+" ");
         }

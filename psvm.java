@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class psvm {
     public static void main(String[] args) {
@@ -22,6 +19,7 @@ public class psvm {
                 i++; //ako ne minavame edin index napred
             }
         }
+        Collections.reverse(numbers);
         for (int num:numbers){
             System.out.println(num + " ");
         }
