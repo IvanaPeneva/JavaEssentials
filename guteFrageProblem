@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+ 
+public class gutefrageProblem {
+    public static void main(String[] args) { //auf die Klammern achten
+        List<String> inputStrings=new ArrayList<>();
+        inputStrings.add("Volvo");
+        inputStrings.add("BMW");
+        inputStrings.add("Ford");
+        inputStrings.add("Mazda");
+        for (String car:inputStrings){
+            System.out.print(car+ " ");
+        }
+        //System.out.println(inputStrings); sieht nicht so gut aus
+    }
+}
