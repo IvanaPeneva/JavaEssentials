@@ -1,22 +1,20 @@
-import java.util.Scanner;
+import java.util.ArrayDeque;
+import java.util.Stack;
 
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        ArrayDeque<Integer> stack = new ArrayDeque<>();
+        stack.push(1); //dobavq nai otgore
+        Integer element=stack.pop(); //izvajda elementa nai otgore
+        Integer el=stack.peek();// kazva koi e elementa nai otgore
+        int size=stack.size();
+        boolean isEmpty=stack.isEmpty();
+        boolean exists=stack.contains(2);
+        //ne moje da dobavqsh na pozicia kato pri list i array a samo otgore
 
-        int[] inputNumbers=new int[100];
-        int counter=0;
-        int number=scanner.nextInt();
-        while (number>=0){
-            inputNumbers[counter]=number;
-            counter++;
-            number=scanner.nextInt();
 
-        }
-        for (int i=counter-1;i>=0;i--){  //printing from the back
-            System.out.print(inputNumbers[i]+" ");
-        }
 
-    }
+
+}
 }
