@@ -15,7 +15,7 @@ class Abteilungsleiter extends Mitarbeiter{
 
         }
     }
-    //PRIVATE Attribute bzw. Methoden einer klassen koennen
+    //PRIVATE Attribute bzw. Methoden einer Klassen koennen
 // in Java trotz Vererbung nicht von Objekten ihrer Unterklassen
 // benutzt werden. Deshalb benutzen wir PROTECTED
 
